@@ -91,6 +91,14 @@
 		</dependency>
 		
 	</dependencies>
+	<repositories>
+          <repository> 
+      <id>nexus</id>
+      <name>nexus remote Repo</name>
+      <url>http://3.83.117.82:8081/repository/maven_proxy_repo/</url>
+         </repository>
+ </repositories> 
+	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
@@ -105,14 +113,6 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
- <repositories>
-          <repository> 
-      <id>nexus</id>
-      <name>nexus remote Repo</name>
-      <url>http://3.83.117.82:8081/repository/maven_proxy_repo/</url>
-         </repository>
- </repositories> 
-
 
 	<build>
 		<finalName>maven-web-app</finalName>
