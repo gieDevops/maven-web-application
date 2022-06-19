@@ -105,13 +105,14 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-	<repositories>
+	<!-- <repositories>
           <repository> 
       <id>nexus</id>
       <name>nexus remote Repo</name>
       <url>http://172.31.95.64/repository/maven_proxy_repo/</url>
          </repository>
- </repositories>
+ </repositories> 
+-->
 
 	<build>
 		<finalName>maven-web-app</finalName>
